@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Nosotros - Radiotaxi Monarca</title>
+    <meta name="title" content="Nosotros - Radiotaxi Monarca">
+    <meta name="description"
+        content="Conoce más sobre Radiotaxi Monarca, nuestro servicio de transporte corporativo en Cuernavaca, Morelos. Más de 10 años de experiencia brindando servicio profesional.">
+    <meta name="keywords" content="radiotaxi monarca, nosotros, historia, flota, Cuernavaca, transporte corporativo">
+    <meta name="author" content="Radiotaxi Monarca">
+    <meta name="language" content="Spanish">
+
+    <!-- TODO: Replace with actual domain URL -->
+    <link rel="canonical" href="https://YOUR-DOMAIN-HERE.com/nosotros.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://YOUR-DOMAIN-HERE.com/nosotros.html">
+    <meta property="og:title" content="Nosotros - Radiotaxi Monarca">
+    <meta property="og:description"
+        content="Conoce más sobre Radiotaxi Monarca, nuestro servicio de transporte corporativo en Cuernavaca, Morelos. Más de 10 años de experiencia brindando servicio profesional.">
+    <meta property="og:locale" content="es_MX">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://YOUR-DOMAIN-HERE.com/nosotros.html">
+    <meta property="twitter:title" content="Nosotros - Radiotaxi Monarca">
+    <meta property="twitter:description"
+        content="Conoce más sobre Radiotaxi Monarca, nuestro servicio de transporte corporativo en Cuernavaca, Morelos. Más de 10 años de experiencia brindando servicio profesional.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Breadcrumb Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://YOUR-DOMAIN-HERE.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nosotros",
+        "item": "https://YOUR-DOMAIN-HERE.com/nosotros.html"
+      }]
+    }
+    </script>
+    <style>
+        .about-hero {
+            background: white;
+            padding: 120px 0 80px;
+            text-align: center;
+            color: #1a1a1a;
+        }
+
+        .about-hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .about-hero p {
+            font-size: 1.25rem;
+            color: #4a5568;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .about-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-text h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        .about-text p {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #4a5568;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-image {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .value-card {
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            border-left: 4px solid #1a1a1a;
+        }
+
+        .value-card h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .value-card p {
+            color: #718096;
+            line-height: 1.6;
+        }
+
+        .fleet-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .fleet-item {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .fleet-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .fleet-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .fleet-caption {
+            padding: 20px;
+            background: white;
+            text-align: center;
+        }
+
+        .fleet-caption h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        @media (max-width: 768px) {
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .about-text h2 {
+                font-size: 2rem;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="rtlogo.svg" alt="Radiotaxi Monarca" class="logo-img">
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="index.html#servicios">Servicios</a>
+                    <a href="index.html#contacto" class="btn-primary">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>Sobre <span class="highlight">Nosotros</span></h1>
+            <p>Más de una década brindando servicio de transporte profesional y confiable en Cuernavaca</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Quiénes Somos</h2>
+                    <p>Radiotaxi Monarca es una empresa líder en servicios de transporte corporativo en Cuernavaca,
+                        Morelos. Con años de experiencia en el sector, nos especializamos en brindar soluciones de
+                        movilidad confiables y profesionales para empresas de todos los tamaños.</p>
+                    <p>Nuestro compromiso es ofrecer un servicio de calidad que supere las expectativas de nuestros
+                        clientes, garantizando puntualidad, seguridad y comodidad en cada viaje.</p>
+                </div>
+                <div class="about-image">
+                    <img src="taxi_fleet_1.png" alt="Radiotaxi Monarca - Flota de taxis">
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Unidades Disponibles</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Empresas Atendidas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Servicio Continuo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content" style="grid-template-columns: 1fr;">
+                <div class="about-text" style="text-align: center;">
+                    <h2>Nuestra Misión</h2>
+                    <p>Proporcionar servicios de transporte corporativo de excelencia, garantizando la seguridad,
+                        puntualidad y comodidad de nuestros clientes, mientras contribuimos al desarrollo económico y
+                        social de Cuernavaca y su zona metropolitana.</p>
+                </div>
+            </div>
+
+            <!-- Values -->
+            <div class="values-grid">
+                <div class="value-card">
+                    <h3> Seguridad</h3>
+                    <p>Conductores capacitados y unidades en óptimas condiciones para garantizar viajes seguros.</p>
+                </div>
+                <div class="value-card">
+                    <h3> Puntualidad</h3>
+                    <p>Respetamos su tiempo con servicios puntuales y eficientes en cada traslado.</p>
+                </div>
+                <div class="value-card">
+                    <h3> Profesionalismo</h3>
+                    <p>Equipo comprometido con brindar un servicio de calidad y atención personalizada.</p>
+                </div>
+                <div class="value-card">
+                    <h3> Confiabilidad</h3>
+                    <p>Servicio disponible 24/7 para cubrir todas las necesidades de su empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-text" style="text-align: center; margin-bottom: 20px;">
+                <h2>Nuestra Flota</h2>
+                <p>Unidades modernas y bien mantenidas para garantizar su comodidad y seguridad</p>
+            </div>
+
+            <div class="fleet-gallery">
+                <div class="fleet-item">
+                    <img src="taxi_fleet_1.png" alt="Taxi Monarca - Unidad 1">
+                    <div class="fleet-caption">
+                        <h3>Unidades Metropolitano</h3>
+                    </div>
+                </div>
+                <div class="fleet-item">
+                    <img src="taxi_fleet_2.png" alt="Taxi Monarca - Unidad 2">
+                    <div class="fleet-caption">
+                        <h3>Servicio Corporativo</h3>
+                    </div>
+                </div>
+                <div class="fleet-item">
+                    <img src="taxi_fleet_3.png" alt="Taxi Monarca - Unidad 3">
+                    <div class="fleet-caption">
+                        <h3>Flota Disponible 24/7</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="about-section" style="background: white; border-top: 1px solid #e5e5e5;">
+        <div class="container">
+            <div class="about-text" style="text-align: center;">
+                <h2 style="color: #1a1a1a;">¿Listo para trabajar con nosotros?</h2>
+                <p style="color: #4a5568;">Solicite una cotización personalizada para su empresa</p>
+                <a href="index.html#contacto" class="btn-cta" style="margin-top: 30px; display: inline-block;">Solicitar
+                    Cotización</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="rtlogo.svg" alt="Radiotaxi Monarca" class="footer-logo">
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2026 Radiotaxi Monarca. Todos los derechos reservados.</p>
+                    <p>Hecho por <a href="https://www.instagram.com/osvaldo__ag?igsh=bHd1ZzZ1d3YwZmw4&utm_source=qr"
+                            target="_blank" rel="noopener noreferrer"
+                            style="color: inherit; text-decoration: none; font-weight: 600;">osvaldo__ag</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
