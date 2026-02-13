@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const data = Object.fromEntries(formData.entries());
 
             // Send to n8n webhook
-            fetch('https://backyou-n8n.pf0hps.easypanel.host/webhook-test/73234d30-5812-42d9-9562-0f5d1bca60df', {
+            fetch('https://backyou-n8n.pf0hps.easypanel.host/webhook/73234d30-5812-42d9-9562-0f5d1bca60df', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
